@@ -1,0 +1,18 @@
+.boxes::after{
+    content: "I am Nion";
+    color: blueviolet;
+}
+
+.boxes::before{
+    content:"Nion" ;
+    color: aquamarine;
+}
+
+::selection{
+    background-color: black;
+    color: aqua;
+}
+
+input::placeholder{
+    opacity: 0.3;
+}

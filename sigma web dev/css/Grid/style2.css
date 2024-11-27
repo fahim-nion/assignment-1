@@ -1,0 +1,40 @@
+.container{
+    display: grid;
+    border:2px solid black;
+    grid-template-areas: "nav nav nav"
+                        " side article article"
+                        "footer footer footer";
+}
+
+.items{
+    border: 2px solid red;
+    height: 55px;
+    /* width: 55px; */
+}
+
+.item-1{
+    grid-area: nav;
+    background-color: aqua;
+}
+
+.item-2{
+    grid-area: side;
+    background-color: aquamarine;
+    
+}
+
+.item-3{
+    grid-area: article;
+    background-color: blueviolet;
+}
+
+.item-4{
+    grid-area: footer;
+    background-color: bisque;
+}
+
+/* overlap korate chai 5 no. item ke 1 er opore tahole */
+
+.item-5{
+    grid-area: nav;
+}

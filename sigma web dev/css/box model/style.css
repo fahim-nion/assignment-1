@@ -1,0 +1,14 @@
+*, html {
+    box-sizing: border-box;
+}
+
+div {
+    background-color: #ddd;
+    width: 200px;
+    height: 200px;
+    margin: 100px ;
+    outline: 10px dashed black;
+    border: 50px solid rgb(243, 143, 143);
+    padding: 50px;
+    /* box-sizing: border-box; */
+}

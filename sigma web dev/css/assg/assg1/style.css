@@ -1,0 +1,9 @@
+.one {
+    background-color: yellow;
+    color: red;
+}
+
+.two ,.three, .four ,.five {
+    background-color: blue;
+    color: white;
+}

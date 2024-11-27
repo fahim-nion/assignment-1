@@ -1,0 +1,48 @@
+.container{
+    background-color: rgb(6, 105, 105);
+    height: 80vh;
+    width: 80vw;
+}
+
+.box{
+    height: 60px;
+    width: 80px;
+    background-color: rgb(58, 173, 173);
+    animation: firstAnimation, secAnim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.51,-0.04, 0.29, 0.78);
+    animation-delay: 1s;
+    animation-direction: alternate-reverse ;
+    animation-fill-mode: forwards;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+
+@keyframes firstAnimation {
+    from{
+        background-color: aquamarine;
+    }
+    to{
+        background-color: yellow;
+        transform: translateX(1000px);
+    }
+}
+
+@keyframes secAnim {
+    0%{
+        transform: rotate(100deg);
+    }
+    20%{
+        transform: rotate(200deg);
+    }
+    50%{
+        transform: rotate(220deg);
+    }
+    80%{
+        transform: rotate(300deg);
+    }
+    100%{
+        transform: rotate(310deg);
+    }
+}

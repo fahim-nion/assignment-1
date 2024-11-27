@@ -1,0 +1,9 @@
+p{
+    color: rgb(0, 127, 84);
+}
+button{
+    padding: 10px;
+    background-color: blueviolet;
+    color: antiquewhite;
+    text-transform: capitalize ;
+}

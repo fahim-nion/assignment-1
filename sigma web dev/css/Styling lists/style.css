@@ -1,0 +1,8 @@
+nav ul li {
+    list-style-type:devanagari;
+    background-color: rgb(170, 255, 0);
+    list-style-position: inside;
+    border: 2px solid black;
+    list-style-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFoOGhjMHdkc2Ztc2dkNTRwNzFwMXhpOTcwOHNmczh0N28wMnMyMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dg/zw3jWlHVIABmNwi6ml/giphy.gif);
+    
+}

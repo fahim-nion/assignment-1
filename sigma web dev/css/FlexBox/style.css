@@ -1,0 +1,31 @@
+.container{
+    border: 2px solid red;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: space-around;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    flex-flow: row wrap;
+    gap: 10px 10px;
+
+}
+
+.item{
+    height: 92px;
+    width: 92px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    /* margin: 4px; */
+}
+
+/* .ordr {
+    order:1;
+} */
+
+.one{
+    /* flex-grow: 15; */
+    flex-shrink: 2;
+    /* align-self: center; */
+}

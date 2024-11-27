@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Yatra+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    color: white;
+    margin: 0 50px 0 0;
+}
+
+nav {
+    background-color: rgb(45, 45, 45);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0px 0px 15px ;
+}
+
+.main{
+    background-color: #00606c7a;
+    position:absolute;
+    width: 100%;
+    padding-top: 70px;
+}
+
+.container{
+    background-color: rgb(72, 67, 73);
+    height: 60vh;
+    width: 90%;
+    margin: 10px auto;
+    position: relative;
+}
+
+.box1 {
+    position: absolute;
+    height: 40vh;
+    width: 40%;
+    background-color: rgb(63, 91, 99);
+    /* margin: 60px 20px auto 20px ; */
+    left: 50px;
+    top:59px;
+}
+
+.box2{
+    position: absolute;
+    height: 40vh;
+    width: 40%;
+    background-color: rgb(87, 60, 142);
+    right: 50px;
+    top: 59px
+}
+
+.txtbox{
+    border: 2px solid black;
+    text-align: center;
+    width: 70vw;
+    height: 30vh;
+    display: block;
+    margin: 25px auto 95px;
+    border-radius: 55px;
+    background-color: rgba(64, 150, 2, 0.345);
+    position: relative;
+}
+
+.txtbox p{
+    font-size: 35px;
+    font-family: "Yatra One";
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.footer{
+    background-color: rgb(116, 68, 161);
+    height: 13vh;
+}
+img {
+    position: fixed;
+    z-index: 11;
+    right: 0;
+    bottom:0
+}

@@ -1,0 +1,24 @@
+.container{
+    height: 80vh;
+    width: 100vw;
+    border: 2px solid purple;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    border: 2px solid sienna;
+    /* transform: rotate(40deg); */
+    transform: rotate(45deg);
+    /* transform: rotateX(307deg); */
+    /* transform: rotateY(313deg); */
+    /* transform: rotateZ(45deg); */
+    /* transform: scaleX(10); */
+    /* transform: skew(45deg); */
+    /* transform: translateY(120px); */
+    transform-origin: 0% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

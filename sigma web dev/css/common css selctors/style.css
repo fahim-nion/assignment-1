@@ -1,0 +1,22 @@
+.para-2{
+    color: blue;
+}
+
+#first-para{
+    color: brown;
+}
+
+.para-2 , #first-para{
+    background-color: aquamarine;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans  MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* root er under e shb p slct korte div p {} dilei hobe but parent root er under e ">" use e only child ra pabe grandchild ra pabe na */
+.root > p{
+    color: hotpink;
+}
+/* attribute diye select */
+[disabled]{
+    background-color: aquamarine
+    ;
+}

@@ -1,0 +1,10 @@
+.box{
+    border: 2px solid black;
+    padding: 34px;
+    box-shadow: 5px 10px 15px 5px rgba(0, 255, 191, 0.616);
+}
+
+.txt {
+    font-size: 90px;
+    text-shadow: 2px 4px 10px rgba(125, 251, 7, 0.774);
+}

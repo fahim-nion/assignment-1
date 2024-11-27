@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+.container{
+    display: grid;
+    position: relative;
+    grid-template-areas:
+    "item1 item2 item3"
+    "item4 item5 item6"
+    "item7 item8 item9"
+    "item10 item10 item10" ;
+    background-color: rgb(209, 255, 255);
+    place-content: center;
+    height: 100vh;
+    border-radius: 25px;
+    padding-top: 100px;
+}
+
+
+.items{
+    display: grid;
+    padding: 10px;
+    background-color: rgba(11, 100, 100, 0.162);
+    margin: 5px;
+    border-radius: 20px;
+    height: 142px;
+    width: 221px;
+    place-content: center;
+    box-shadow: 1px 1px 60px rgba(110, 128, 182, 0.34);
+}
+
+.item1{
+    grid-area: item1;
+}
+
+.item2{
+    grid-area: item2;
+}
+
+.item3{
+    grid-area: item3;
+}
+
+.item4{
+    grid-area: item4;
+}
+
+.item5{
+    grid-area: item5;
+}
+
+.txt {
+    /* align-items: center; */
+    text-align: center;
+}
+.btn {
+    background-color: rgb(172, 255, 227);
+    border: 2px solid rgb(113, 198, 255);
+    border-radius: 25px;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 15px rgb(48, 255, 203);
+    font-family: "Agdasima";
+    font-size: 14px;
+    font-weight: 900;
+    color: rgb(158, 116, 255);
+}
+
+h5{
+    font-family: "Agdasima";
+    font-size: 13px;
+}
+
+.btnfix{
+    margin-left: 45px;
+    margin-right: 40px;
+}

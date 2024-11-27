@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.left {
+    background-color: rgb(249, 135, 184);
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.right {
+    background-color: rgb(16, 199, 255);
+    width: 300px;
+    height: 180px;
+    float:left;
+}
+
+.footer {
+    width: 800px;
+    margin: 0 auto;
+    height: 150px;
+    background-color: palegreen;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}

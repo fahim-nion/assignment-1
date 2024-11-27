@@ -1,0 +1,58 @@
+.container {
+    width: 600px;
+    margin: 30px auto;
+    background: #ddd;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+.title{
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 60px;
+    margin-left: 90px;
+}
+
+.para {
+    font-family: "Teko", sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.btn {
+    padding: 5px 10px;
+    text-transform: capitalize;
+}
+
+.primary-btn{
+    background: blue;
+    color: white;
+}
+
+.secondary-btn{
+    background-color: yellow;
+    color: green ;
+}
+.flag{
+    width: 600px;
+    margin: 60px auto;
+    height: 200px;
+
+}
+/* 
+.bg{
+    width: 100%;
+    height: 100%;
+    background: green;
+    position: relative;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    border-radius: 50%;
+    position:
+    top: 50%;
+    left:50%;
+    transform:trasnslate(-50% , -50%)
+} */

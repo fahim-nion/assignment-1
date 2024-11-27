@@ -1,0 +1,19 @@
+.logo{
+    width: 150px;
+    height: 28px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 34px;
+}
+
+ul li {
+    list-style: none;
+}

@@ -1,0 +1,30 @@
+.container{
+    width: 80vw;
+    height: 100vh;
+    display: grid;
+    border:2px solid black;
+    /* grid-template-columns: 120px 100px;
+    grid-template-rows: 100px 100px 100px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    /* place-content: center; */ 
+}
+
+.items{
+    border: 2px solid red;
+    height: 55px;
+    width: 55px;
+}
+
+.item-2{
+    justify-self: ;
+    align-self:flex-start ;
+}
+
+/* .item-4{
+    grid-row: 1/2;
+    grid-column: 1/2;
+} */
